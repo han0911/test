@@ -493,6 +493,11 @@ JSON 형식으로만 응답해주세요:
           </div>
         )}
       </div>
+      <Test></Test>
     </div>
   );
+}
+
+function Test(){
+    return <div>test</div>
 }
